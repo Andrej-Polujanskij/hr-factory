@@ -1,0 +1,289 @@
+*, *:before, *:after {
+    box-sizing: border-box
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+    display: block
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*, *:before, *:after {
+	box-sizing: border-box
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+	display: block
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none
+}
+
+blockquote, q {
+	quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+a:active, a:visited, a, a:hover, a:focus, button {
+	text-decoration: none!important;
+	outline: 0!important;
+}
+
+.flex {
+	display: flex;
+}
+
+.v-center {
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	-ms-transform:translateY(-50%); 
+	-webkit-transform:translateY(-50%); 
+	left: 0;
+	right: 0;
+}
+.alignright  {
+float: right;
+	margin: 0 0 20px 20px;
+}
+.clear {
+clear: both;
+}
+.alignleft {
+float: left;
+	margin: 0 20px 20px 0;
+}
+.aligncenter {
+display: block;
+margin: 10px auto;
+}
+body{
+	min-width: 300px;
+}
+body img {
+max-width:100%;
+	height:auto;
+	display: block;
+}
+strong{
+	font-weight: 700;
+}
+body, html {
+	background: #fff;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+input, textarea, select {
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	min-width: 300px;
+}
+body img {
+max-width:100%;
+	height:auto;
+	display: block;
+}
+a img {
+border: 0;
+}
+
+a:active, a:visited, a, a:hover, a:focus, button {
+	text-decoration: none!important;
+	outline: 0!important;
+}
+
+* {
+	outline:0 ! important;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+p {
+word-wrap: break-word!important;
+	font-size: 14px;
+	color: #333;
+	line-height: 1.4;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-weight: normal;
+	margin: 0;
+}
+a {
+outline : none!important;
+	text-decoration: none;
+	color: #444444;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+body a:hover {
+text-decoration: none;
+}
+.alignright  {
+float: right;
+	margin: 0 0 20px 20px;
+}
+.clear {
+clear: both;
+}
+.alignleft {
+float: left;
+	margin: 0 20px 20px 0;
+}
+.aligncenter {
+display: block;
+margin: 10px auto;
+}
+
+.center {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.flex {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.v-center {
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	-ms-transform:translateY(-50%); 
+	-webkit-transform:translateY(-50%); 
+	left: 0;
+	right: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
